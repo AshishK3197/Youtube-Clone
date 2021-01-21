@@ -1,0 +1,13 @@
+.sidebar {
+	/* giving a width of only 20% through the flexbox system */
+	flex: 0.2;
+	/* border: 1px solid black; */
+}
+
+.sidebar > hr {
+	height: 1px;
+	border: 0;
+	background-color: lightgray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
