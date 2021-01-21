@@ -2,6 +2,7 @@ import "./Searchpage.css";
 import TuneOutlinedIcon from "@material-ui/icons/TuneOutlined";
 import React from "react";
 import ChannelRow from "./ChannelRow";
+import VideoRow from "./VideoRow";
 
 function Searchpage() {
 	return (
@@ -19,6 +20,18 @@ function Searchpage() {
 				subs="660K"
 				noOfVideos={382}
 				description="You can find awesome vlogs here which can add vakue to your life."
+			/>
+
+			<hr />
+
+			<VideoRow
+				views="1.4M"
+				subs="659K"
+				description="Lorem ipsum dolor sit am"
+				timestamp="59 seconds ago"
+				channel="Ashish Kumar"
+				title="🔴 LETS GO!"
+				image="https://"
 			/>
 		</div>
 	);
